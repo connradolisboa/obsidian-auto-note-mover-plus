@@ -94,6 +94,16 @@
     align-items: center;
 }
 
+.anm-folder-options-wrap {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.anm-folder-options-wrap select {
+    min-width: 160px;
+}
+
 .anm-condition-row select:nth-child(1) {
     min-width: 120px;
 }
