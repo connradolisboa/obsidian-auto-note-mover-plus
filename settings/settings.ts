@@ -131,6 +131,8 @@ export interface FolderTagRule {
   conditions: RuleCondition[];
   date_property?: string;
   collapsed?: boolean;
+  sourceFolders?: string[];
+  sourceIncludeSubfolders?: boolean;
 }
 
 export interface ExcludedFolder {

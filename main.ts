@@ -230,7 +230,7 @@ export default class AutoNoteMover extends Plugin {
 					match: 'ALL' as const,
 					conditions,
 					date_property: rule.date_property || '',
-					sourceFolders: [],
+					sourceFolders: [] as string[],
 					sourceIncludeSubfolders: false,
 				};
 			});
