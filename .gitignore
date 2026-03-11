@@ -8,30 +8,7 @@ node_modules
 package-lock.json
 
 # Build output
-main.js
-*.map
-
-# Obsidian
-data.json
-
-# macOS
-.DS_Store
-
-# AI Development Tools (Keep local only)
-.bmad
-.agent
-.claude
-# Editor
-.vscode
-.idea
-*.iml
-
-# Dependencies
-node_modules
-package-lock.json
-
-# Build output
-main.js
+/main.js
 *.map
 
 # Obsidian
